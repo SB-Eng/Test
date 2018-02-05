@@ -21,16 +21,16 @@
       elements.bat.setValue(d.bat);
       // now get the history - these could take a while
       // so we do it separately.
-       Puck.eval("data", function(d) {
+       Puck.eval("log", function(d) {
         elements.temp.setData(d);
         });
-      Puck.eval("data1", function(d) {
+      Puck.eval("log1", function(d) {
         elements.temp1.setData(d);
        });
-      Puck.eval("data2", function(d) {
+      Puck.eval("log2", function(d) {
         elements.temp2.setData(d);
        });
-      Puck.eval("data3", function(d) {
+      Puck.eval("log3", function(d) {
         elements.temp3.setData(d);
       });
     });
